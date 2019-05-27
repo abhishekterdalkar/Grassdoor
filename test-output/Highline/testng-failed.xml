@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Highline]">
+  <test thread-count="5" name="Highline Automation(failed)">
+    <classes>
+      <class name="highlineAutomation.User">
+        <methods>
+          <include name="roles"/>
+          <include name="email_validation" invocation-numbers="0 1 2 3"/>
+          <include name="beforeTest"/>
+          <include name="name_validation" invocation-numbers="0 1 2 3"/>
+          <include name="afterTest"/>
+          <include name="password_validation" invocation-numbers="0"/>
+          <include name="phone_validation" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- highlineAutomation.User -->
+    </classes>
+  </test> <!-- Highline Automation(failed) -->
+</suite> <!-- Failed suite [Highline] -->

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[Customer Name validation passed]]>
+    </line>
+    <line>
+      <![CDATA[Phone validation test passed]]>
+    </line>
+    <line>
+      <![CDATA[Edit flow test passed]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="29822" started-at="2019-05-20T13:20:30Z" finished-at="2019-05-20T13:21:00Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="29822" started-at="2019-05-20T13:20:30Z" finished-at="2019-05-20T13:21:00Z">
+      <class name="grassdorAutomation.CustomersEdit">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:grassdorAutomation.CustomersEdit@29774679]" name="beforeTest" is-config="true" duration-ms="19687" started-at="2019-05-20T13:20:30Z" finished-at="2019-05-20T13:20:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="nameValidation(java.lang.String, java.lang.String)[pri:0, instance:grassdorAutomation.CustomersEdit@29774679]" name="nameValidation" duration-ms="2188" started-at="2019-05-20T13:20:50Z" data-provider="name_dp" finished-at="2019-05-20T13:20:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Customer Name field is required.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Customer Name validation passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- nameValidation -->
+        <test-method status="PASS" signature="phoneValidation(java.lang.String, java.lang.String)[pri:1, instance:grassdorAutomation.CustomersEdit@29774679]" name="phoneValidation" duration-ms="2165" started-at="2019-05-20T13:20:52Z" data-provider="phone_dp" finished-at="2019-05-20T13:20:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Phone Number field is required.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Phone validation test passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- phoneValidation -->
+        <test-method status="PASS" signature="editCustomerFlow()[pri:2, instance:grassdorAutomation.CustomersEdit@29774679]" name="editCustomerFlow" duration-ms="5725" started-at="2019-05-20T13:20:54Z" finished-at="2019-05-20T13:21:00Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Edit flow test passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- editCustomerFlow -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:grassdorAutomation.CustomersEdit@29774679]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-05-20T13:21:00Z" finished-at="2019-05-20T13:21:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- grassdorAutomation.CustomersEdit -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
