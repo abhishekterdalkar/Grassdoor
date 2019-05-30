@@ -8,6 +8,8 @@ public class Customer_Page {
 	
 	public static WebElement element = null;
 	
+	
+	
 	public static WebElement customerId(FirefoxDriver driver) {
 		//first id
 		return element = driver.findElement(By.xpath("/html/body/div/div/main/div[2]/div[2]/div/div[1]/table/tbody/tr[1]/td[1]/a"));
